@@ -252,7 +252,7 @@ async def handle_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
     else:
-        await update.message.reply_text("我不明白你的选择 🤔", reply_markup=main_menu_markup)
+        await update.message.reply_text("I don’t understand your options 🤔", reply_markup=main_menu_markup)
 
 # ========== 游戏回调 ==========
 async def lottery_menu_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
