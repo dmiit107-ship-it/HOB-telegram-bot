@@ -17,7 +17,7 @@ from telegram.ext import (
 
 
 
-TOKEN = "8254639256:AAE7_AT5RHNkbCOV8XdDe4MMrn91iq3htxI"
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 USER_FILE = "users.json"
 GOOGLE_SHEET_URL = "https://script.google.com/macros/s/AKfycbzhF7Wozco434eyec5nVLlBwx4Pyha40iRQPukUI6R4CU-qcuxjr2OgyLXTDxV8rjUu2g/exec"  # 换成你自己的
 
