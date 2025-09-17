@@ -11,6 +11,7 @@ from telegram.ext import (
     Application, CommandHandler, MessageHandler, filters,
     ContextTypes, CallbackQueryHandler
 )
+from dotenv import load_dotenv
 
 
 
